@@ -1,7 +1,7 @@
 import React from 'react';
 import './Menustyle.css';
 import './Contactstyle.css';
-
+import {Link} from 'react-router-dom';
 const Menu = () => {
     
     return (
@@ -9,9 +9,9 @@ const Menu = () => {
         <div className="Menustyle">
             <ul>
 
-                <li>Home </li>
-                <li>About</li>
-                <li>Contact </li>
+                <li> <Link to="/">Home</Link> </li>
+                <li><Link to="/About">About</Link> </li>
+                <li><Link to="/Contact">Contact</Link> </li>
             </ul>
         </div>
     )

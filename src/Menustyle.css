@@ -20,3 +20,7 @@
     text-transform: uppercase;
     color: white;
 }
+.Menustyle ul li a{
+    color:white;
+    text-decoration: none;
+}
