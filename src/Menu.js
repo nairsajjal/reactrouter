@@ -1,4 +1,6 @@
 import React from 'react';
+import './Menustyle.css';
+import './Contactstyle.css';
 
 const Menu = () => {
     
@@ -14,5 +16,6 @@ const Menu = () => {
         </div>
     )
 };
+
 
 export default Menu
